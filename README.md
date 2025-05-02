@@ -14,3 +14,6 @@
 ### 下方每月使用數量統計區 可切換長條圖及折線圖
 ![image](https://github.com/user-attachments/assets/8881c965-2db0-4bdc-9699-328e9de78423)
 ![image](https://github.com/user-attachments/assets/fef4af88-4465-4fe8-b528-9cebc1f771ad)
+
+### 右上方功能鍵 支援重新抓取資料 及重設地圖中心
+![image](https://github.com/user-attachments/assets/15b4ca4f-38bb-486e-8f73-26d6931275b4)
