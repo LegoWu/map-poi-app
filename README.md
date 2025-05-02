@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+## UBike 查詢系統
+### 所有站點以紅色PIN顯示, 中心範圍以藍色PIN顯示
+![image](https://github.com/user-attachments/assets/e76a005d-fc89-4dcf-8a3a-ff4a04d20b43)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 點擊站點PIN 會顯示該站名稱, 地址, 總數量及可供租借數量
+![image](https://github.com/user-attachments/assets/9ed7c11c-cbbf-46b7-b9c8-b9499d3b11dd)
 
-## Available Scripts
+### 可輸入站點名稱查詢 並支援autocomplete feature
+![image](https://github.com/user-attachments/assets/7281fd72-abf7-46d4-b2f7-2a4b8c092f16)
 
-In the project directory, you can run:
+### 點擊地圖中心可重設方圓三公里範圍, 並出現站點列表在左側
+![image](https://github.com/user-attachments/assets/902e367b-5fc4-41d6-8244-6ee7f5eaf76e)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 下方每月使用數量統計區 可切換長條圖及折線圖
+![image](https://github.com/user-attachments/assets/8881c965-2db0-4bdc-9699-328e9de78423)
+![image](https://github.com/user-attachments/assets/fef4af88-4465-4fe8-b528-9cebc1f771ad)
