@@ -152,6 +152,17 @@ export default function App() {
               value={search}
               onChange={handleSearchChange}
             />
+            {search && (
+              <button
+                onClick={() => {
+                  setSearch("");
+                  setSuggestions([]);
+                }}
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-black"
+              >
+                ✕
+              </button>
+            )}
             {suggestions.length > 0 && (
               <ul className="absolute bg-white border w-full z-10 shadow-lg">
                 {suggestions.map((s) => (
@@ -196,7 +207,7 @@ export default function App() {
                   mapRef.current?.panTo(m.position);
                 }}
               >
-                <img className="inline" src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'/>
+                <img className="inline" alt="" src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'/>
                 <span className="inline">{m.name}</span>
               </li>
             ))}
@@ -208,7 +219,7 @@ export default function App() {
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={mapCenter}
-            zoom={12}
+            zoom={13}
             onClick={handleMapClick}
             onLoad={(map) => (mapRef.current = map)}
           >
